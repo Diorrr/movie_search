@@ -14,8 +14,6 @@ import java.io.IOException;
 public class MongoConfiguration {
 
     private final MongoConfigurationProperties properties;
-    private static final String DB_URL = "localhost";
-    private static final String DB_NAME = "embeded_db_bitwise";
 
     public MongoConfiguration(MongoConfigurationProperties configurationProperties) {
         this.properties = configurationProperties;

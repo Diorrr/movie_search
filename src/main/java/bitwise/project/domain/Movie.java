@@ -1,6 +1,5 @@
 package bitwise.project.domain;
 
-import com.querydsl.core.annotations.QueryEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.mongodb.core.mapping.Document;
