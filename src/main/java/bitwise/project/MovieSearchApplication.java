@@ -11,10 +11,10 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @EnableConfigurationProperties(value = MongoConfigurationProperties.class)
 @Slf4j
 @EnableMongoRepositories
-public class BitwiseApplication {
+public class MovieSearchApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BitwiseApplication.class, args);
+        SpringApplication.run(MovieSearchApplication.class, args);
     }
 
 }
